@@ -1,9 +1,9 @@
 const app = new Vue({
 	el: '#app',
 	data: {
-	    firstName: '',
-	    lastName: '',
-	    email: '',
+	    firstName: 'Salma',
+	    lastName: 'Mohammed',
+	    email: 's@gmail.com',
 	    ticketQuantity: 1,
 	    ticketType: 'general',
 	    referrals: [],

@@ -18,23 +18,23 @@
     <form>
       <div class="form-row">
         <div class="form-field">
-          <label for="first-name">First Name</label>
+          <label for="first-name">{{ firstName }}</label>
           <input type="text" id="first-name" />
         </div>
         <div class="form-field">
-          <label for="last-name">Last Name</label>
+          <label for="last-name">{{ lastName }}</label>
           <input type="text" id="last-name" />
         </div>
       </div>
       <div class="form-row">
         <div class="form-field">
-          <label for="email">Email</label>
+          <label for="email">{{ email }}</label>
           <input type="text" id="email" />
         </div>
       </div>
       <div class="form-row">
         <div class="form-field">
-          <label for="ticket-quantity">Ticket Quantity</label>
+          <label for="ticket-quantity">{{ ticketQuantity }}</label>
           <select id="ticket-quantity">
             <option>1</option>
             <option>2</option>
@@ -43,7 +43,7 @@
           </select>
         </div>
         <div class="form-field">
-          <legend>Ticket Type</legend>
+          <legend>{{ ticketType }}</legend>
           <div>
             <input type="radio" id="general" value="general">
             <label for="general">General Admission</label>
